@@ -112,26 +112,11 @@ a:hover {
 }
 .experience_right{
     width: 40%;
-    margin-top: 5%;
+    margin-top: -15%;
 }
 .experience_right h1{
     font-weight: 700;
     font-size: 40px;
-    padding-bottom: 10px;
+    
     color: #151414;
-}
-.experience_right p{
-    width: 50%;
-    font-size: 10px;
-    color: #444343;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.experience-item{
-    display: flex;
-    padding-bottom: 4px;
-}
-.experience-item span img{
-    height: 24px;
-    width: 24px;
 }
