@@ -133,9 +133,9 @@ a:hover {
 /* ================= my plans section================ */
 .title{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
-    margin-bottom: 3rem;
+
 }
 .my_plans_section{
     display: flex;
@@ -149,12 +149,7 @@ a:hover {
     align-items: center;
 }
 .my_plans_items h2{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     color: #151414;
-}
-.my_plans_items p{
-    font-weight: 500;
-    font-size: 16px;
-    color: #737272;
 }
