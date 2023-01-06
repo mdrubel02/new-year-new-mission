@@ -14,6 +14,16 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -53,45 +63,20 @@ a:hover {
     background: #4db5ff;
     color: #fff;
 }
+
 /* =========navbar style=============== */
 .navbar_section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    padding: 10px;
-    background-color:#4db5ff ;
-    margin-bottom: 10px;
 }
-.bran_name{
-    width: 40%;
-    margin-left: 10px;
-}
-.bran_name h3{
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 700;
-}
+
 .navbar_items {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
-.item{
-    padding-left: 12px;
-}
-.item span{
-    color: #FFFFFF;
-}
-.navbar_icon{
-  width: 35%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.navbar_icon img{
-    width: 40px;
-    height: 40px;
-}
+
 /* ========= Banner section ============== */
 .banner_section {
     background-image: url(/images/banner/banner1.png);
@@ -108,6 +93,7 @@ a:hover {
     align-items: flex-end;
     text-align: center;
 }
+
 .banner {
     width: 35%;
     margin-top: -0%;
@@ -118,11 +104,13 @@ a:hover {
     justify-content: end;
     align-items: flex-end;
 }
+
 .banner h1 {
     font-size: 45px;
     color: #151414;
     text-align: end;
 }
+
 .banner p {
     color: #444343;
     font-size: 12px;
@@ -130,22 +118,27 @@ a:hover {
     padding-top: 5px;
     padding-bottom: 10px;
 }
-/* =========== experience section style================== */
+
+
+/* =========== experience section ================== */
 .experience_section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .experience_right {
     width: 40%;
     margin-top: 5%;
 }
+
 .experience_right h1 {
     font-weight: 700;
     font-size: 40px;
     padding-bottom: 10px;
     color: #151414;
 }
+
 .experience_right p {
     width: 50%;
     font-size: 10px;
@@ -153,21 +146,25 @@ a:hover {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .experience-item {
     display: flex;
     padding-bottom: 4px;
 }
+
 .experience-item span img {
     height: 24px;
     width: 24px;
 }
-/* ================= my plans section style ================ */
+
+/* ================= my plans section================ */
 .title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 3rem;
 }
+
 .my_plans_section {
     display: flex;
     justify-content: space-around;
@@ -222,9 +219,11 @@ a:hover {
     z-index: -5;
     background: linear-gradient(90deg, #afb818 0%, rgba(241, 91, 34, 0) 100%);
 }
+
 .activity_content {
     padding: 50px;
 }
+
 .activity_content h1 {
     width: 470px;
     font-size: 40px;
@@ -232,6 +231,7 @@ a:hover {
     padding-bottom: 10px;
     color: #FFFFFF;
 }
+
 /* ======== contact style =========== */
 .contact_title {
     color: #121212;
@@ -241,11 +241,15 @@ a:hover {
     text-align: center;
     margin-bottom: 5%;
 }
+
 .contact_section {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+.contact_left {}
+
 .contact_img {
     height: 600px;
     height: 500px;
@@ -322,7 +326,4 @@ textarea {
 
 .footer_input::placeholder {
     color: #FFFFFF;
-}
-.footer_icon{
-    padding-left: 7px;
 }
