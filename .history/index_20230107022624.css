@@ -302,10 +302,4 @@ textarea {
     font-weight: 700;
     color: #F8F8F8;
 }
-.footer_input{
-   margin-bottom: 10px;
-}
-.footer_input::placeholder{
-    color: #FFFFFF;
-}
 

@@ -305,7 +305,4 @@ textarea {
 .footer_input{
    margin-bottom: 10px;
 }
-.footer_input::placeholder{
-    color: #FFFFFF;
-}
 
