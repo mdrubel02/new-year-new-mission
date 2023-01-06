@@ -192,7 +192,6 @@ a:hover {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
-    border-radius: 8px;
 }
 .activity_section::after{
     content: "";
@@ -203,15 +202,8 @@ a:hover {
     height: 100%;
     opacity: .7;
     z-index: -5;
-    background: linear-gradient(90deg,#afb818 0%, rgba(241, 91, 34, 0) 100%);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
 }
-.activity_content{
-    padding: 50px;
-}
-.activity_content h1{
-    width: 470px;
-   font-size: 40px;
-   font-weight: 700;
-   padding-bottom: 10px;
-   color: #FFFFFF;
+.activity-contaien{
+    padding: 15px;
 }

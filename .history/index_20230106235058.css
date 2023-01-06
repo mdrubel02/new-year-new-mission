@@ -15,12 +15,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
 }
 
@@ -65,7 +60,7 @@ a:hover {
 }
 
 /* ========= Banner section ============== */
-.banner_section {
+.banner_section{
     background-image: url(/images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,25 +75,22 @@ a:hover {
     align-items: flex-end;
     text-align: center;
 }
-
-.banner {
+.banner{
     width: 35%;
-    margin-top: -0%;
-    position: absolute;
-    right: 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-end;
+   margin-top: -0%;
+   position: absolute;
+   right: 15%;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   align-items: flex-end;
 }
-
-.banner h1 {
+.banner h1{
     font-size: 45px;
     color: #151414;
     text-align: end;
 }
-
-.banner p {
+.banner p{
     color: #444343;
     font-size: 12px;
     text-align: end;
@@ -108,77 +100,66 @@ a:hover {
 
 
 /* =========== experience section ================== */
-.experience_section {
+.experience_section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-.experience_right {
+.experience_right{
     width: 40%;
     margin-top: 5%;
 }
-
-.experience_right h1 {
+.experience_right h1{
     font-weight: 700;
     font-size: 40px;
     padding-bottom: 10px;
     color: #151414;
 }
-
-.experience_right p {
+.experience_right p{
     width: 50%;
     font-size: 10px;
     color: #444343;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-.experience-item {
+.experience-item{
     display: flex;
     padding-bottom: 4px;
 }
-
-.experience-item span img {
+.experience-item span img{
     height: 24px;
     width: 24px;
 }
-
 /* ================= my plans section================ */
-.title {
+.title{
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 3rem;
 }
-
-.my_plans_section {
+.my_plans_section{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
-.my_plans_items {
+.my_plans_items{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.my_plans_items h2 {
+.my_plans_items h2{
     font-size: 30px;
     font-weight: 700;
     color: #151414;
 }
-
-.my_plans_items p {
+.my_plans_items p{
     font-weight: 500;
     font-size: 16px;
     color: #737272;
 }
-
 /* ============= activity section========= */
-.activity_section {
+.activity_section{
     background-image: url(/images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,29 +170,7 @@ a:hover {
     z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    text-align: start;
-    border-radius: 8px;
-}
-.activity_section::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .7;
-    z-index: -5;
-    background: linear-gradient(90deg,#afb818 0%, rgba(241, 91, 34, 0) 100%);
-}
-.activity_content{
-    padding: 50px;
-}
-.activity_content h1{
-    width: 470px;
-   font-size: 40px;
-   font-weight: 700;
-   padding-bottom: 10px;
-   color: #FFFFFF;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
 }
